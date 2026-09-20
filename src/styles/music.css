@@ -1,0 +1,15 @@
+#music-btn-main{position:fixed;z-index:100;bottom:3rem;right:3rem;height:5rem;width:5rem;border-radius:50%;padding:.6rem;background:#fac9e3;-webkit-backdrop-filter:blur(45px);backdrop-filter:blur(45px);cursor:pointer;border:0px;display:flex;align-items:center;justify-content:center;outline:none}
+#music-btn-main img{height:100%;width:100%}
+.wed001-music-section #music-btn-main,.wed001-music-section #call-btn{background-color:#7f1b26}
+.wed002-music-section #music-btn-main,.wed002-music-section #call-btn{background-color:#892c4b}
+.wed005-music-section #music-btn-main,.wed005-music-section #call-btn{background-color:#ce1a50}
+.eng005-music-section #music-btn-main,.eng005-music-section #call-btn{background-color:#5b5c50}
+.hou001-music-section #music-btn-main,.hou001-music-section #call-btn{background-color:#243f03}
+.hou002-music-section #music-btn-main,.hou002-music-section #call-btn{background-color:var(--primary)}
+.Bir005-music-section #music-btn-main,.Bir005-music-section #call-btn{background-color:#ffcc70}
+.com001-music-section #music-btn-main,.com001-music-section #call-btn{background-color:#000}
+.nam001-music-section #music-btn-main,.nam001-music-section #call-btn{background-color:#5a8223}
+.eng007-music-section #music-btn-main,.eng007-music-section #call-btn{background-color:#9e5a61}
+.wed010-music-btn #music-btn-main,.wed010-music-btn #call-btn{background:#931711!important}
+.wed014-buttons-section #call-btn,.wed014-buttons-section #music-btn-main{background-color:#855088}
+.wed015-buttons-section #call-btn,.wed015-buttons-section #music-btn-main{background-color:#ca6500}

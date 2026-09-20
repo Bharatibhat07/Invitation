@@ -1,0 +1,11 @@
+.bir007-hero-btn{margin-top:15px;display:flex;align-items:center;justify-content:center;gap:10px;background-color:var(--primary);max-width:220px;color:#fff;border:none;border-radius:8px;padding:14px 20px;font-size:18px;font-weight:400;font-family:Kameron;cursor:pointer}
+.hero-date-venue-details{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:2rem;font-family:Kameron;font-size:19px;margin-top:30px}
+.hero-date-venue-details{flex-direction:column}
+.hero-date-venue-details{flex-direction:column}
+.hero-date-venue-details{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:2rem;font-family:Kameron;font-size:22px;margin-top:30px}
+.hero-date-details{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;gap:1.5rem;width:250px}
+.hero-date-content{display:flex;flex-direction:column;gap:1.5rem}
+.hero-date-content span{color:var(--primary)}
+.hero-date-content p{color:var(--secondary)}
+.hero-date-details img{width:20px;height:20px}
+.hero-date-venue-details{flex-direction:column}

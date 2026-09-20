@@ -1,0 +1,19 @@
+:root {
+  --primary: rgba(147, 23, 17, 1);
+  --primary-hover: rgba(120, 18, 13, 1);
+  --secondary: rgba(27, 27, 27, 1);
+  --mid-yellow: rgba(255, 205, 68, 1);
+  --bday-gold-light: #fef8ee;
+  --welcome-bg-light: #fffcf8;
+  --welcome-bg: #fbf5eb;
+  --white: #ffffff;
+  --font-kameron: 'Kameron', serif;
+  --font-alex-brush: 'Alex Brush', cursive;
+  --font-cormorant: 'Cormorant Garamond', serif;
+}
+
+.bir007-theme {
+  --primary: rgba(147, 23, 17, 1);
+  --secondary: rgba(27, 27, 27, 1);
+  --mid-yellow: rgba(255, 205, 68, 1);
+}

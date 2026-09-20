@@ -1,0 +1,12 @@
+.oi-section{position:fixed;inset:0;width:100%;height:100vh;overflow:hidden;background:#f8ecd1}
+.oi-section{position:fixed;inset:0;width:100%;height:100vh;overflow:hidden;background:#fff}
+.oi-top,.oi-bottom{position:absolute;inset:0;transition:transform 1.2s ease-in-out}
+.oi-bg{position:absolute;width:100%;height:100%;background-size:cover;background-position:center;background-repeat:repeat}
+.oi-bottom-flower{position:absolute;right:0;bottom:0;width:25%;z-index:5}
+.oi-top-design{position:absolute;top:0;left:0;width:100%;height:55%;z-index:20}
+.oi-open-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:150px;height:150px;border:none;background:none;cursor:pointer;z-index:50}
+.oi-open-btn img{width:100%}
+.oi-open-btn span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:45px;font-family:Alex Brush;color:#b68b4c;letter-spacing:2px}
+.oi-section.opened .oi-top{transform:translateY(-110%)}
+.oi-section.opened .oi-bottom{transform:translateY(110%)}
+@media(max-width:750px){.oi-bottom-flower{position:absolute;right:0;bottom:0;width:200px;z-index:5}

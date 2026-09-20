@@ -1,0 +1,4 @@
+@media(max-width:655px){.bday-section{padding:7rem 2rem}
+.bday-section{--bday-gold-light: rgba(255, 243, 196, 1);position:relative;width:100%;min-height:100vh;background:var(--primary);padding:32px 56px;overflow:hidden;font-family:Kameron,serif;box-sizing:border-box;align-content:center}
+.bday-section *{box-sizing:border-box}
+@media(max-width:655px){.bday-section{padding:7rem 2rem}

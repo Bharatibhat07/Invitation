@@ -1,0 +1,8 @@
+.bir007-shared-navbar-container .shared-navbar.bir007-navbar{display:flex;justify-content:center;align-items:center;gap:3rem;padding:16px 0;transition:.35s ease;background:transparent;box-shadow:none;-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);font-size:3rem}
+.bir007-navbar-dark .nav-label{color:#b68b4c}
+.bir007-navbar-dark .shared-nav-item .nav-label,.bir007-navbar-light .shared-nav-item .nav-label{font-family:Kameron;color:#a88350;font-size:2.5rem}
+.bir007-navbar-dark .bir007-active .nav-label{color:var(--primary);font-family:Kameron;text-shadow:1px 1px 0 #b48a4d,5px 5px 2px rgba(0,0,0,.15)}
+.bir007-navbar-light .shared-navbar.bir007-navbar{font-family:Kameron}
+.bir007-navbar-light .nav-label{color:#b68b4c}
+.bir007-navbar-light .bir007-active .nav-label{color:#fff6ea;font-family:Kameron;text-shadow:1px 1px 0 #b48a4d,5px 5px 2px rgba(0,0,0,.15)}
+@media(max-width:480px){.bir007-shared-navbar-container .shared-navbar.bir007-navbar{gap:1.8rem;padding:18px 0}

@@ -1,0 +1,82 @@
+/* Scroll-triggered Smooth Entrance Animations */
+
+/* Base transition properties */
+.anim-fade-up,
+.anim-fade-down,
+.anim-slide-left,
+.anim-slide-right,
+.anim-scale-up,
+.anim-zoom {
+  transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+/* Initial Hidden States */
+.anim-fade-up {
+  opacity: 0;
+  transform: translateY(35px);
+}
+
+.anim-fade-down {
+  opacity: 0;
+  transform: translateY(-35px);
+}
+
+.anim-slide-left {
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+.anim-slide-right {
+  opacity: 0;
+  transform: translateX(60px);
+}
+
+.anim-scale-up {
+  opacity: 0;
+  transform: scale(0.88);
+}
+
+.anim-zoom {
+  opacity: 0;
+  transform: scale(0.92) translateY(20px);
+}
+
+/* Active In-View Revealed States */
+.is-in-view .anim-fade-up,
+.is-in-view .anim-fade-down,
+.is-in-view .anim-slide-left,
+.is-in-view .anim-slide-right,
+.is-in-view .anim-scale-up,
+.is-in-view .anim-zoom,
+.anim-fade-up.is-active,
+.anim-fade-down.is-active,
+.anim-slide-left.is-active,
+.anim-slide-right.is-active,
+.anim-scale-up.is-active,
+.anim-zoom.is-active {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Stagger Delays */
+.delay-1 { transition-delay: 0.12s; }
+.delay-2 { transition-delay: 0.24s; }
+.delay-3 { transition-delay: 0.36s; }
+.delay-4 { transition-delay: 0.48s; }
+.delay-5 { transition-delay: 0.6s; }
+
+/* Subtle floating pulse for icons */
+@keyframes royalGlowPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(243, 212, 102, 0.35));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(243, 212, 102, 0.75));
+  }
+}
+
+.royal-glow {
+  animation: royalGlowPulse 3s ease-in-out infinite;
+}

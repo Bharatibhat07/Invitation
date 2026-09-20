@@ -1,0 +1,4 @@
+.welcome-section{--welcome-bg: #f7e6ad;--welcome-bg-light: #fdf3d0;--welcome-heading: #a8353f;--welcome-text: #4a3a2a;--welcome-line: #7a5a2a;position:relative;width:100%;min-height:100vh;background:linear-gradient(180deg,var(--welcome-bg-light) 0%,var(--welcome-bg) 100%);display:flex;align-items:center;justify-content:center;padding:48px 40px;overflow:hidden;box-sizing:border-box;font-family:Kameron}
+@media(max-width:640px){.welcome-section{padding:6rem 2rem}
+@media(max-width:640px){.welcome-section{padding:6rem 2rem}
+.welcome-section *{box-sizing:border-box}
